@@ -1,0 +1,289 @@
+/******************************************************************************
+ * General HTML Elements
+ ******************************************************************************/
+#body {
+    font-family: sans-serif;
+    // font-size: 1.25em; 
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+th {
+    background-color: #cccccc;
+/*    padding-left: 15px;
+    padding-right: 15px;*/
+}
+/******************************************************************************
+ * Display DIVs
+ ******************************************************************************/
+#us-east {
+    position: absolute;
+    left: 486px;
+    top: 320px;
+    margin: 0px;
+    padding: 0px;
+    // border: 2px solid blue;
+}
+#us-west {
+    position: absolute;
+    left: 10px;
+    top: 375px;
+    margin: 0px;
+    padding: 0px;
+    // border: 2px solid blue;
+}
+#eu-central {
+    position: absolute;
+    left: 790px;
+    top: 245px;
+    margin: 0px;
+    padding: 0px;
+    // border: 2px solid blue;
+}
+#ap-north {
+    position: absolute;
+    left: 1125px;
+    top: 230px;
+    margin: 0px;
+    padding: 0px;
+    // border: 2px solid blue;
+}
+
+#bottom-right {
+    position: absolute;
+    left: 10px;
+    top: 765px;
+    /* border: 2px solid red; */
+}
+#bottom-center {
+    position: absolute;
+    left: 520px;
+    top: 765px;
+    width: 460px;
+    // border: 2px solid red;
+}
+
+/******************************************************************************
+ * Clickable DIVs
+ ******************************************************************************/
+#us-east-1 { /* US East (N. Virginia) */
+    position: absolute;
+    left: 434px;
+    top: 311px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#us-east-2 { /* US East (Ohio) */
+    position: absolute;
+    left: 394px;
+    top: 301px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#us-west-1 { /* US West (N. California) */
+    position: absolute;
+    left: 255px;
+    top: 321px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#us-west-2 { /* US West (Oregon) */
+    position: absolute;
+    left: 247px;
+    top: 284px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#us-gov-west-1 { /* GovCloud (US-West) */
+    position: absolute;
+    left: 281px;
+    top: 296px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#us-gov-east-1 { /* GovCloud (US-East) */
+    position: absolute;
+    left: 426px;
+    top: 288px;
+    height: 50px;
+    width: 50px;
+    // border: 2px solid red;
+}
+
+#ca-central-1 { /* Canada (Central) */
+    position: absolute;
+    left: 448px;
+    top: 260px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#eu-central-1 { /* EU (Frankfurt) */
+    position: absolute;
+    left: 741px;
+    top: 250px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#eu-west-1 { /* EU (Ireland) */
+    position: absolute;
+    left: 681px;
+    top: 228px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#eu-west-2 { /* EU (London) */
+    position: absolute;
+    left: 706px;
+    top: 252px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#eu-west-3 { /* EU (Paris) */
+    position: absolute;
+    left: 718px;
+    top: 278px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#eu-central-2 { /* EU (Sweden) */
+    position: absolute;
+    left: 774px;
+    top: 193px;
+    height: 50px;
+    width: 50px;
+    // border: 2px solid red;
+}
+
+#ap-northeast-1 { /* Asia Pacific (Tokyo) */
+    position: absolute;
+    left: 1260px;
+    top: 327px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#ap-northeast-2 { /* Asia Pacific (Seoul) */
+    position: absolute;
+    left: 1195px;
+    top: 317px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#ap-northeast-3 { /* Asia Pacific (Osaka-Local) */
+    position: absolute;
+    left: 1235px;
+    top: 348px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#ap-southeast-1 { /* Asia Pacific (Singapore) */
+    position: absolute;
+    left: 1111px;
+    top: 489px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#ap-southeast-2 { /* Asia Pacific (Sydney) */
+    position: absolute;
+    left: 1293px;
+    top: 652px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#ap-east-1 { /* Asia Pacific (Hong Kong) */
+    position: absolute;
+    left: 1154px;
+    top: 390px;
+    height: 50px;
+    width: 50px;
+    // border: 2px solid blue;
+}
+
+#ap-west-1 { /* Asia Pacific (Bahrain) */
+    position: absolute;
+    left: 914px;
+    top: 371px;
+    height: 50px;
+    width: 50px;
+    // border: 2px solid green;
+}
+#ap-south-1 { /* Asia Pacific (Mumbai) */
+    position: absolute;
+    left: 1007px;
+    top: 409px;
+    height: 49px;
+    width: 49px;
+    // border: 2px solid red;
+}
+#sa-east-1 { /* South America (Sao Paulo) */
+    position: absolute;
+    left: 517px;
+    top: 611px;
+    height: 48px;
+    width: 48px;
+    // border: 2px solid red;
+}
+#cn-north-1 { /* China (Beijing) */
+    position: absolute;
+    left: 1155px;
+    top: 298px;
+    height: 48px;
+    width: 48px;
+    // border: 2px solid red;
+}
+#cn-northwest-1 { /* China (Ningxia) */
+    position: absolute;
+    left: 1117px;
+    top: 309px;
+    height: 48px;
+    width: 48px;
+    // border: 2px solid red;
+}
+
+
+
+
+
+/******************************************************************************
+ * Style Classes
+ ******************************************************************************/
+.block {
+    display: inline-block;
+    width: 135px;
+    font-weight: bold;
+}
+.region {
+    text-align: center;
+    line-height: 49px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #faaf34;
+}
+.region-new {
+    text-align: center;
+    line-height: 49px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #33d3a9;
+}
