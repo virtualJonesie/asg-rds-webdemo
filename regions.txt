@@ -1,0 +1,23 @@
+us-east-1	US East (N. Virginia)	6
+us-east-2	US East (Ohio)	3
+us-west-1	US West (N. California)	3
+us-west-2	US West (Oregon)	3
+ca-central-1	Canada (Central)	2
+eu-central-1	EU (Frankfurt)	3
+eu-west-1	EU (Ireland)	3
+eu-west-2	EU (London)	3
+eu-west-3	EU (Paris)	3
+ap-northeast-1	Asia Pacific (Tokyo)	4
+ap-northeast-2	Asia Pacific (Seoul)	2
+ap-northeast-3	Asia Pacific (Osaka-Local)	1
+ap-southeast-1	Asia Pacific (Singapore)	3
+ap-southeast-2	Asia Pacific (Sydney)	3
+ap-south-1	Asia Pacific (Mumbai)	2
+sa-east-1	South America (Sao Paulo)	3
+us-gov-west-1	GovCloud (US-West)	3
+us-gov-east-1	GovCloud (US-East)	0
+eu-central-2	EU (Sweden)	0
+cn-north-1	China (Beijing)	2
+cn-northwest-1	China (Ningxia) 3
+ap-west-1	Asia Pacific (Bahrain)	0
+ap-east-1	Asia Pacific (Hong Kong)	0
